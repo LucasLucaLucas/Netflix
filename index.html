@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/file.png" alt="Netflix">
+    </header>
+
+    <main>
+       
+
+        <section class="container">
+            <section class="header">
+                <h1>Entrar</h1>
+            </section>
+                <article class="login">
+                    <form action="cadastro.php">
+                      <div class="email">
+                        <label for="iemail"></label>
+                        <input required type="email" name="email" id="iemail" placeholder="Email ou número de ceular">
+                      </div>
+                    
+                      <div class="senha">
+                        <label for="isenha"></label>
+                        <input required type="password" name="senha" id="isenha" placeholder="Senha">
+                      </div>
+                    </form>
+                </article>
+
+                <section class="enviar">
+                    <input type="submit" value="Entrar"><br>
+                    <span id="ou">OU</span> <br>
+                    <button id="botao">Usar um código de acesso</button> <br>
+                    <button id="esqueceu">Esqueceu a senha?</button>
+                </section>
+
+                <section class="ultima_caixa">
+                    <div class="teste">
+                        <input type="checkbox" name="box" id="">
+                        <span id="remember">Lembre-se de mim</span>
+                    </div> <br>
+                    <div class="fim">
+                        <span>Novo por aqui? <a href="#">Assine agora</a></span>
+                    </div>
+                </section>
+
+
+        </section>
+    </main>
+</body>
+</html>
