@@ -108,7 +108,7 @@ header {
     top: -10px
 }
 
-.enviar > input{
+.enviar > a > input{
     width: 75%;
     height: 39px;
     display: flex;
@@ -124,9 +124,15 @@ header {
     
 }
 
-.enviar > input:hover {
+.enviar > a {
+    text-decoration: none;
+}
+
+.enviar > a > input:hover {
     background-color: #C11119;
     cursor: pointer;
+   
+
     
 }
 
